@@ -1,4 +1,4 @@
-FROM php:7.3.10-alpine
+FROM php:7.3.12-alpine
 
 ENV BUILD_DEPS autoconf gcc cmake g++ make
 ENV REDIS_VERSION 4.1.1
